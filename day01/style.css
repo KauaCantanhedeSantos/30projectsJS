@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata';
+}
+body{
+  background: #222;
+  color: white;
+}
+/* ELEMENTS STYLES */
+.card{
+  width: 90%;
+  max-width: 35rem;
+  background: linear-gradient(145deg,#00feba 0%, #5b548a);
+  margin: 5rem auto 0;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input{
+  width: 85%;
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  padding: 0.5rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+}
+.search button{
+  width: 13%;
+  height: 3rem;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;  
+  cursor: pointer;
+}
+.search i{
+  font-size: 1.5rem;
+}
+.weather{
+  padding: 0.5rem;
+}
+.weather-icon{
+  font-size: 8rem;
+  margin: 1rem 0 0 0;
+}
+.weather .temp{
+  margin: 1rem  0 0 0;
+  font-size: 4rem;
+}
+.weather .city{
+  font-size: 3rem;
+  font-weight: 200;
+}
+.details{
+  margin: 3rem 0 0 0;
+  padding: 0.9rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.details .col i{
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+.details .col .wind,
+.details .col .humidity{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.details .col p{
+  font-size: 2rem;
+}
+.weather{
+  display: none;
+  transition: 0.1s;
+}
+.error{
+  margin: 2rem 0 0 1rem;
+  text-align: start;
+  display: none;
+}

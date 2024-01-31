@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- LINKS STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Seeing the Weather</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card">
+
+      <div class="search">
+        <input type="text" placeholder="Enter city name" id="city-empty">
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="error">
+        <h2>Invalid City Name</h2>
+      </div>
+
+      <div class="weather">
+        <i class="fa-solid fa-cloud-rain weather-icon" id="iconWeather"></i>
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+
+        <div class="details">
+
+          <div class="col">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="">
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <i class="fa-solid fa-wind"></i>
+            <div class="">
+              <p class="wind">10 <span>KM/H</span></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
