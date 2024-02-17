@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Space Grotesk;
+  box-sizing: border-box;
+}
+p{
+  margin: 1rem 0 0 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4230a9, #92bacf);
+    color: white;
+    padding: 1rem;
+  }
+
+  .container .calcAge {
+    width: 100%;
+    max-width: 70rem;
+    margin: 15rem 0 0 5rem;
+    padding: 1rem;
+  }
+
+  .calcAge h1 {
+    font-size: 4rem;
+  }
+
+  .calcAge h2 {
+    font-size: 2rem;
+    color: #ffff76;
+  }
+
+  .calcAge .input-age {
+    padding: 1rem;
+    width: 50%;
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    background: #ffffff50;
+    border-radius: 0.4rem;
+  }
+
+  .calcAge .input-age input {
+    flex: 1;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 0.9rem;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 0.4rem;
+  }
+
+  .calcAge .input-age button {
+    background: #ffff76;
+    color: #333;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+
+  .input-age input::-webkit-calendar-picker-indicator {
+    top: 0rem;
+    left: 0rem;
+    right: -0.5rem;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 1rem);
+    background-size: 1.7rem;
+    cursor: pointer;
+  }
+}
+
+/* 
+container
+  - width
+  - minheight
+  background gradiente
+  color and padding
+
+E. Filho
+width
+max-widht
+margin
+
+titulo
+font size
+
+input-div
+margin
+border
+backgound
+padding
+outline
+font size
+display 
+aling-items
+
+*/
